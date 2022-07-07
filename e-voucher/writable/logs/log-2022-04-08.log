@@ -1,0 +1,49 @@
+CRITICAL - 2022-04-08 12:08:25 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(881): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepayment()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 12:16:11 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(881): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepayment()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 12:18:18 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(881): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepayment()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 12:18:19 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(881): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepayment()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 12:20:38 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(881): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepayment()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 12:33:15 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(772): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepetty()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 13:18:01 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(772): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepetty()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

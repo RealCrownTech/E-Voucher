@@ -1,0 +1,119 @@
+CRITICAL - 2022-02-05 11:40:34 --> Class 'App\Models\AmenitiesModel' not found
+#0 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(801): CodeIgniter\Controller->__construct()
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-05 11:43:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ashokas\app\Views\settings\permissions.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('settings/permis...', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Settings.php(182): view('settings/permis...', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Settings->permission('21')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-05 11:43:44 --> Table 'ashokas.amenities' doesn't exist
+CRITICAL - 2022-02-05 11:43:44 --> Table 'ashokas.amenities' doesn't exist
+#0 C:\xampp\htdocs\ashokas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ashokas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ashokas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ashokas\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ashokas\app\Models\AmenitiesModel.php(8): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ashokas\app\Controllers\Amenities.php(16): App\Models\AmenitiesModel->getAllAmenities()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Amenities->index()
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Amenities))
+#8 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-05 11:45:46 --> Invalid file: modals/edit_amenities.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modals/edit_ame...')
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(432): CodeIgniter\View\View->render('modals/edit_ame...', NULL, true)
+#2 C:\xampp\htdocs\ashokas\app\Views\amenities\index.php(59): CodeIgniter\View\View->include('modals/edit_ame...')
+#3 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('amenities/index', Array, true)
+#6 C:\xampp\htdocs\ashokas\app\Controllers\Amenities.php(44): view('amenities/index', Array)
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Amenities->index()
+#8 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Amenities))
+#9 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-05 12:03:10 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\print\invoice.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('print/invoice', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(50): view('print/invoice', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->invoice('32109079')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-05 12:03:10 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\print\invoice.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('print/invoice', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(50): view('print/invoice', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->invoice('32109079')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-05 12:03:11 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\print\invoice.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('print/invoice', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(50): view('print/invoice', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->invoice('32109079')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-05 12:03:11 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\print\invoice.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('print/invoice', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(50): view('print/invoice', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->invoice('32109079')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-05 12:09:30 --> Undefined variable: lodge_no
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->order_invoice('32109079')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-05 12:10:37 --> Undefined variable: id
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->order_invoice('32109079')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-05 12:10:41 --> Undefined variable: id
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->order_invoice('32109079')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-05 12:11:35 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\print\order_invoice.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('print/order_inv...', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(69): view('print/order_inv...', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->order_invoice('32109079')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

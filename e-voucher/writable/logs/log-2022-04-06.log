@@ -1,0 +1,14 @@
+CRITICAL - 2022-04-06 12:33:04 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(767): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepetty()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 12:36:28 --> Undefined variable $data
+#0 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Voucher.php(767): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Voucher->approvepetty()
+#2 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

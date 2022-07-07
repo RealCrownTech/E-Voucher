@@ -1,0 +1,161 @@
+CRITICAL - 2022-02-02 07:50:19 --> Undefined variable: lodge_data
+#0 C:\xampp\htdocs\ashokas\app\Views\lodge\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('lodge/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(460): view('lodge/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('87124012')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 12:18:00 --> Undefined variable: builder
+#0 C:\xampp\htdocs\ashokas\app\Models\LodgeModel.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(506): App\Models\LodgeModel->deleteLodge('87124012')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('87124012')
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 12:19:18 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 474, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('87124012')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 12:35:02 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\lodge\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('lodge/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(560): view('lodge/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('87124012')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 12:35:15 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\lodge\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('lodge/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(560): view('lodge/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('87124012')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 12:38:04 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\lodge\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('lodge/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(560): view('lodge/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('21608339')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 12:44:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ashokas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ashokas\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(512): CodeIgniter\Model->__call('deleteTransacti...', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('74358634')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 13:17:04 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ashokas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ashokas\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(512): CodeIgniter\Model->__call('deleteTransacti...', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('74358634')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 13:20:00 --> Undefined variable: prevroomid
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(545): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 545, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->edit_room('74358634')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 14:59:09 --> Declaration of App\Models\RoomModel::delete($id) should be compatible with CodeIgniter\BaseModel::delete($id = NULL, bool $purge = false)
+#0 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(264): include_once()
+#2 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Room...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Room...')
+#5 C:\xampp\htdocs\ashokas\system\Controller.php(218): spl_autoload_call('App\\Models\\Room...')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(801): CodeIgniter\Controller->__construct()
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#8 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 15:00:34 --> Declaration of App\Models\RoomModel::delete($id) should be compatible with CodeIgniter\BaseModel::delete($id = NULL, bool $purge = false)
+#0 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(264): include_once()
+#2 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Room...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Room...')
+#5 C:\xampp\htdocs\ashokas\system\Controller.php(218): spl_autoload_call('App\\Models\\Room...')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(801): CodeIgniter\Controller->__construct()
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#8 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 18:47:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ashokas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ashokas\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Food.php(364): CodeIgniter\Model->__call('deleteFood', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Food->deleteFood('1')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Food))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 18:49:55 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ashokas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ashokas\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Food.php(378): CodeIgniter\Model->__call('deleteStockOrde...', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Food->deleteFoodOrder('4')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Food))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-02 18:57:42 --> Unknown column 'client' in 'where clause'
+CRITICAL - 2022-02-02 18:57:42 --> Unknown column 'client' in 'where clause'
+#0 C:\xampp\htdocs\ashokas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `cl...', 0)
+#1 C:\xampp\htdocs\ashokas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `cl...')
+#2 C:\xampp\htdocs\ashokas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `cl...')
+#3 C:\xampp\htdocs\ashokas\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `cl...', Array, false)
+#4 C:\xampp\htdocs\ashokas\app\Models\ClientModel.php(62): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ashokas\app\Controllers\Client.php(177): App\Models\ClientModel->deleteClient('4')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Client->deleteClient('4')
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#8 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 19:03:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ashokas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ashokas\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ashokas\app\Controllers\User.php(183): CodeIgniter\Model->__call('deleteUser', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->deleteUser('7')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-02 19:12:15 --> Column 'middle_name' cannot be null
+CRITICAL - 2022-02-02 19:12:15 --> Column 'middle_name' cannot be null
+#0 C:\xampp\htdocs\ashokas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ashokas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ashokas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ashokas\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ashokas\app\Models\UserModel.php(9): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ashokas\app\Controllers\User.php(50): App\Models\UserModel->create(Array)
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->create()
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

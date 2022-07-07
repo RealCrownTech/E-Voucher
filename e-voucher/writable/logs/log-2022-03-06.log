@@ -1,0 +1,93 @@
+CRITICAL - 2022-03-06 11:21:32 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#1 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-06 11:24:24 --> Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed
+#0 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(368): serialize(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#1 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-06 11:32:09 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 370, Array)
+#1 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(370): count(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#4 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-06 11:33:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 370, Array)
+#1 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(370): count(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#4 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-06 11:34:53 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 371, Array)
+#1 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(371): count(NULL)
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#4 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-06 11:44:24 --> Trying to get property 'getRandomName' of non-object
+#0 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(368): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 368, Array)
+#1 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-06 11:44:38 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#1 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-06 11:45:12 --> Serialization of 'CodeIgniter\HTTP\Files\UploadedFile' is not allowed
+#0 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(368): serialize(Array)
+#1 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-06 11:46:25 --> Call to a member function getClientName() on array
+#0 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->createPaymentByCash()
+#1 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-06 13:19:17 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\afil\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\afil\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\afil\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\afil\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\afil\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-06 13:35:26 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\afil\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\afil\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\afil\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-06 18:41:26 --> Undefined index: attachment
+#0 C:\xampp\htdocs\afil\app\Views\voucher\index.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 285, Array)
+#1 C:\xampp\htdocs\afil\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\afil\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\afil\system\Common.php(1097): CodeIgniter\View\View->render('voucher/index', Array, true)
+#4 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(38): view('voucher/index', Array)
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->index()
+#6 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#7 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

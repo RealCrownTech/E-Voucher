@@ -1,0 +1,13 @@
+CRITICAL - 2021-12-05 07:44:22 --> Invalid file: modals/add_user_role.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modals/add_user...')
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(432): CodeIgniter\View\View->render('modals/add_user...', NULL, true)
+#2 C:\xampp\htdocs\ashokas\app\Views\users\add.php(18): CodeIgniter\View\View->include('modals/add_user...')
+#3 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('users/add', Array, true)
+#6 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(85): view('users/add', Array)
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->user_add()
+#8 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,48 @@
+ERROR - 2022-03-31 11:13:22 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-31 11:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/ashoolha/afil.ashokashotel.com/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ashoolha/afil.ashokashotel.com/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /home/ashoolha/afil.ashokashotel.com/app/Models/SettingsModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Login.php(14): App\Models\SettingsModel->getCompanyData()
+#4 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#5 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-31 11:13:39 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-31 11:13:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/ashoolha/afil.ashokashotel.com/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ashoolha/afil.ashokashotel.com/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /home/ashoolha/afil.ashokashotel.com/app/Models/SettingsModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Login.php(14): App\Models\SettingsModel->getCompanyData()
+#4 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#5 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-31 11:14:05 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-31 11:14:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/ashoolha/afil.ashokashotel.com/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ashoolha/afil.ashokashotel.com/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /home/ashoolha/afil.ashokashotel.com/app/Models/SettingsModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Login.php(14): App\Models\SettingsModel->getCompanyData()
+#4 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#5 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-31 11:16:45 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-31 11:16:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/ashoolha/afil.ashokashotel.com/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ashoolha/afil.ashokashotel.com/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /home/ashoolha/afil.ashokashotel.com/app/Models/SettingsModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ashoolha/afil.ashokashotel.com/app/Controllers/Login.php(14): App\Models\SettingsModel->getCompanyData()
+#4 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#5 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashoolha/afil.ashokashotel.com/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashoolha/afil.ashokashotel.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,19 @@
+CRITICAL - 2022-03-04 08:56:25 --> Undefined variable: row
+#0 C:\xampp\htdocs\afil\app\Views\voucher\index.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\afil\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\afil\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\afil\system\Common.php(1097): CodeIgniter\View\View->render('voucher/index', Array, true)
+#4 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(38): view('voucher/index', Array)
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->index()
+#6 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#7 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-04 22:43:06 --> Undefined variable: user_id
+#0 C:\xampp\htdocs\afil\app\Models\VoucherModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(26): App\Models\VoucherModel->getAllVouchersByOutlet('11')
+#2 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->index()
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#4 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

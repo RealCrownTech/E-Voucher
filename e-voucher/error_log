@@ -1,0 +1,22 @@
+[14-Mar-2022 17:54:50 Africa/Lagos] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.2.34. in /home/fatyusor/public_html/e-voucher/vendor/composer/platform_check.php on line 24
+[14-Mar-2022 18:16:48 Africa/Lagos] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/fatyusor/public_html/e-voucher/vendor/composer/platform_check.php on line 24
+[15-Mar-2022 17:46:51 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: CodeIgniter\HTTP\URI::setScheme(): Argument #1 ($str) must be of type string, null given, called in /home/fatyusor/public_html/e-voucher/system/HTTP/IncomingRequest.php on line 401 and defined in /home/fatyusor/public_html/e-voucher/system/HTTP/URI.php:646
+Stack trace:
+#0 /home/fatyusor/public_html/e-voucher/system/HTTP/IncomingRequest.php(401): CodeIgniter\HTTP\URI->setScheme(NULL)
+#1 /home/fatyusor/public_html/e-voucher/system/HTTP/IncomingRequest.php(200): CodeIgniter\HTTP\IncomingRequest->setPath('/', Object(Config\App))
+#2 /home/fatyusor/public_html/e-voucher/system/HTTP/IncomingRequest.php(168): CodeIgniter\HTTP\IncomingRequest->detectURI('PATH_INFO', 'https//fatyus.o...')
+#3 /home/fatyusor/public_html/e-voucher/system/Config/Services.php(467): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), '', Object(CodeIgniter\HTTP\UserAgent))
+#4 /home/fatyusor/public_html/e-voucher/system/Config/BaseService.php(248): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#5 /home/fatyusor/public_html/e-voucher/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#6 /home/fatyusor/public_html/e-voucher/system/Config/Services.php(458): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#7 /home/fatyusor/public_html/e-voucher/system/Config/BaseService.php(248): CodeIgniter\Config\Services::request()
+#8 /home/fatyusor/public_html/e-voucher/system/Config/Services.php(238): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#9 /home/fatyusor/public_html/e-voucher/system/Config/BaseService.php(248): CodeIgniter\Config\Services::exceptions(Object(Config\Exceptions), NULL, NULL, false)
+#10 /home/fatyusor/public_html/e-voucher/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('exceptions', Array)
+#11 /home/fatyusor/public_html/e-voucher/system/Config/Services.php(234): CodeIgniter\Config\BaseService::getSharedInstance('exceptions', NULL, NULL, NULL)
+#12 /home/fatyusor/public_html/e-voucher/system/Config/BaseService.php(248): CodeIgniter\Config\Services::exceptions()
+#13 /home/fatyusor/public_html/e-voucher/system/CodeIgniter.php(173): CodeIgniter\Config\BaseService::__callStatic('exceptions', Array)
+#14 /home/fatyusor/public_html/e-voucher/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#15 /home/fatyusor/public_html/e-voucher/index.php(28): require('/home/fatyusor/...')
+#16 {main}
+  thrown in /home/fatyusor/public_html/e-voucher/system/HTTP/URI.php on line 646

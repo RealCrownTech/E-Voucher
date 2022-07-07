@@ -1,0 +1,84 @@
+CRITICAL - 2021-12-04 04:01:51 --> Call to undefined method App\Controllers\Home::renderView()
+#0 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->convertToPdf('invoice_pdf')
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-04 04:07:26 --> Invalid file: <link type="text/css" href="public/assets/css/light.css" rel="stylesheet" />.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<link type="tex...')
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('<link type="tex...', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(66): view('<link type="tex...')
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->convertToPdf('invoice_pdf')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-04 04:17:21 --> Call to undefined method App\Controllers\Home::renderView()
+#0 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->convertToPdf('invoice_pdf')
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-04 04:18:49 --> Invalid file: invoice_pdf.php.twig
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice_pdf.php...')
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('invoice_pdf.php...', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(70): view('invoice_pdf.php...')
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->convertToPdf('invoice_pdf')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-04 04:33:14 --> Invalid file: invoice_pdf.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice_pdf.php')
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('invoice_pdf', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(66): view('invoice_pdf')
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->convertToPdf('invoice_pdf')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-04 09:01:58 --> Invalid file: $i.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('$i.php')
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('$i', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(66): view('$i')
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->convertToPdf('$i')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-04 09:06:18 --> Invalid file: $i.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('$i.php')
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('$i', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(66): view('$i')
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->convertToPdf('$i', '$i')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-04 09:32:47 --> Invalid file: rooms/.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rooms/.php')
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('rooms/', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(110): view('rooms/', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->rooms()
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-04 09:34:07 --> Invalid file: rooms.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rooms.php')
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('rooms', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(110): view('rooms', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->rooms()
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-04 09:34:09 --> Invalid file: rooms.php
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rooms.php')
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('rooms', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(110): view('rooms', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->rooms()
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

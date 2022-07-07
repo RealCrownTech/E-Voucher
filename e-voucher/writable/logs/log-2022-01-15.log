@@ -1,0 +1,220 @@
+CRITICAL - 2022-01-15 09:33:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::edit()
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Client.php(137): App\Models\ClientModel->edit(Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Client->edit('1')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 09:33:56 --> Undefined variable: data
+#0 C:\xampp\htdocs\ashokas\app\Models\ClientModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\ashokas\app\Controllers\Client.php(137): App\Models\ClientModel->edit(Array)
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Client->edit('1')
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-15 10:01:37 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('users/view', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\User.php(88): view('users/view', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->view()
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 18:42:32 --> Undefined property: App\Controllers\User::$clientModel
+#0 C:\xampp\htdocs\ashokas\app\Controllers\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 18:45:43 --> Undefined variable: user_id
+#0 C:\xampp\htdocs\ashokas\app\Controllers\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 18:46:58 --> Undefined index: user_email
+#0 C:\xampp\htdocs\ashokas\app\Views\users\edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('users/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\User.php(132): view('users/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 18:47:48 --> Undefined index: user_mobile
+#0 C:\xampp\htdocs\ashokas\app\Views\users\edit.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('users/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\User.php(132): view('users/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 18:53:36 --> syntax error, unexpected ''password'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-15 18:57:53 --> Undefined variable: row
+#0 C:\xampp\htdocs\ashokas\app\Views\users\edit.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('users/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\User.php(146): view('users/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 19:03:29 --> Undefined variable: row
+#0 C:\xampp\htdocs\ashokas\app\Views\users\edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('users/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\User.php(146): view('users/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 19:04:29 --> Undefined index: user_state
+#0 C:\xampp\htdocs\ashokas\app\Views\users\edit.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('users/edit', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\User.php(146): view('users/edit', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 19:07:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ashokas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ashokas\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ashokas\app\Controllers\User.php(150): CodeIgniter\Model->__call('edit', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 19:09:15 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ashokas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ashokas\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ashokas\app\Controllers\User.php(135): CodeIgniter\Model->__call('edit', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 19:10:24 --> Too few arguments to function App\Models\UserModel::edit(), 1 passed in C:\xampp\htdocs\ashokas\app\Controllers\User.php on line 135 and exactly 2 expected
+#0 C:\xampp\htdocs\ashokas\app\Controllers\User.php(135): App\Models\UserModel->edit(Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 19:11:10 --> Too few arguments to function App\Models\UserModel::edit(), 1 passed in C:\xampp\htdocs\ashokas\app\Controllers\User.php on line 135 and exactly 2 expected
+#0 C:\xampp\htdocs\ashokas\app\Controllers\User.php(135): App\Models\UserModel->edit(Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 19:11:37 --> Too few arguments to function App\Models\UserModel::edit(), 1 passed in C:\xampp\htdocs\ashokas\app\Controllers\User.php on line 135 and exactly 2 expected
+#0 C:\xampp\htdocs\ashokas\app\Controllers\User.php(135): App\Models\UserModel->edit(Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\User->edit('2')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 19:44:00 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-15 19:45:49 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Room...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Room...')
+#3 C:\xampp\htdocs\ashokas\app\Controllers\Dashboard.php(14): spl_autoload_call('App\\Models\\Room...')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-15 19:47:12 --> Undefined variable: occupied
+#0 C:\xampp\htdocs\ashokas\app\Views\dashboard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(35): view('dashboard', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 19:47:44 --> Undefined variable: occupied
+#0 C:\xampp\htdocs\ashokas\app\Views\dashboard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(35): view('dashboard', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 19:50:11 --> Undefined variable: occupied
+#0 C:\xampp\htdocs\ashokas\app\Views\dashboard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Home.php(35): view('dashboard', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 20:04:25 --> Class 'App\Models\LodgeModel' not found
+#0 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(801): App\Controllers\Lodge->__construct()
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 20:32:01 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-15 20:32:16 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('lodge/check-in', Array, true)
+#2 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(29): view('lodge/check-in', Array)
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->check_in()
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,164 @@
+CRITICAL - 2022-01-31 15:36:15 --> Undefined property: App\Controllers\Reservation::$reservationModel
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Reservation.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Reservation->create()
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-31 15:38:02 --> Unknown column 'reservation_no' in 'field list'
+CRITICAL - 2022-01-31 15:38:02 --> Unknown column 'reservation_no' in 'field list'
+#0 C:\xampp\htdocs\ashokas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hi...', 0)
+#1 C:\xampp\htdocs\ashokas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 C:\xampp\htdocs\ashokas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 C:\xampp\htdocs\ashokas\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 C:\xampp\htdocs\ashokas\app\Models\TransactionModel.php(44): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ashokas\app\Controllers\Reservation.php(172): App\Models\TransactionModel->createHidden(Array)
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Reservation->create()
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#8 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-31 15:39:50 --> Undefined variable: roomdata
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Reservation.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Reservation->create()
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 16:05:03 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\lodge\receipt.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('lodge/receipt', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(331): view('lodge/receipt', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->receipt('47487443')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 16:05:45 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\lodge\receipt.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('lodge/receipt', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(331): view('lodge/receipt', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->receipt('47487443')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 16:10:02 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\lodge\receipt.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('lodge/receipt', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Lodge.php(331): view('lodge/receipt', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Lodge->receipt('47487443')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lodge))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 16:17:40 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\print\receipt.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('print/receipt', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(72): view('print/receipt', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->receipt('20989648')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 16:26:14 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\print\reservation_receipt.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('print/reservati...', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(92): view('print/reservati...', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->reservation_receipt('20989648')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 16:27:18 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\ashokas\app\Views\print\reservation_receipt.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\ashokas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ashokas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ashokas\system\Common.php(1097): CodeIgniter\View\View->render('print/reservati...', Array, true)
+#4 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(92): view('print/reservati...', Array)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->reservation_receipt('20989648')
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#7 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 19:36:33 --> fputcsv() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(115): fputcsv(Resource id #165, '1')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->close_account()
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 19:36:35 --> fputcsv() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(115): fputcsv(Resource id #165, '1')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->close_account()
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 19:36:42 --> fputcsv() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(115): fputcsv(Resource id #165, '1')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->close_account()
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 19:37:16 --> fputcsv() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(115): fputcsv(Resource id #165, '1')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->close_account()
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 19:37:18 --> fputcsv() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(115): fputcsv(Resource id #165, '1')
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->close_account()
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 19:50:25 --> syntax error, unexpected 'fputcsv' (T_STRING)
+#0 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ashokas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 20:02:51 --> Array to string conversion
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->download_sales_report()
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 20:03:17 --> Array to string conversion
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->download_sales_report()
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 20:03:19 --> Array to string conversion
+#0 C:\xampp\htdocs\ashokas\app\Controllers\Transactions.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(824): App\Controllers\Transactions->download_sales_report()
+#2 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transactions))
+#3 C:\xampp\htdocs\ashokas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ashokas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

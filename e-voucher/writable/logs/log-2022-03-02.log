@@ -1,0 +1,65 @@
+CRITICAL - 2022-03-02 14:41:12 --> Undefined variable: users
+#0 C:\xampp\htdocs\afil\app\Views\voucher\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\afil\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\afil\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\afil\system\Common.php(1097): CodeIgniter\View\View->render('voucher/index', Array, true)
+#4 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(27): view('voucher/index', Array)
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->index()
+#6 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#7 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-02 15:23:16 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\afil\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\afil\system\Common.php(1097): CodeIgniter\View\View->render('voucher/index', Array, true)
+#2 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(27): view('voucher/index', Array)
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->index()
+#4 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-02 18:01:25 --> Cannot redeclare App\Controllers\Voucher::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-02 19:24:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\afil\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\afil\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(46): CodeIgniter\Model->__call('getOutletByUser...', Array)
+#3 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->pettyByCash()
+#4 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-02 19:25:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\afil\app\Views\voucher\pettybycash.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\afil\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\afil\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\afil\system\Common.php(1097): CodeIgniter\View\View->render('voucher/pettyby...', Array, true)
+#4 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(49): view('voucher/pettyby...', Array)
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->pettyByCash()
+#6 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#7 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-02 19:25:58 --> Illegal string offset 'outlet_id'
+#0 C:\xampp\htdocs\afil\app\Views\voucher\pettybycash.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\afil\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\afil\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\afil\system\Common.php(1097): CodeIgniter\View\View->render('voucher/pettyby...', Array, true)
+#4 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(49): view('voucher/pettyby...', Array)
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->pettyByCash()
+#6 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#7 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-02 19:29:21 --> Undefined variable: validation
+#0 C:\xampp\htdocs\afil\app\Views\voucher\pettybycash.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\afil\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\afil\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\afil\system\Common.php(1097): CodeIgniter\View\View->render('voucher/pettyby...', Array, true)
+#4 C:\xampp\htdocs\afil\app\Controllers\Voucher.php(49): view('voucher/pettyby...', Array)
+#5 C:\xampp\htdocs\afil\system\CodeIgniter.php(824): App\Controllers\Voucher->pettyByCash()
+#6 C:\xampp\htdocs\afil\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+#7 C:\xampp\htdocs\afil\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\afil\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
